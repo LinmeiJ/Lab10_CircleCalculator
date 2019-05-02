@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/************@Author: Linmei Mills **********/
+//this program takes an user input as the radius
+//it calculates area and circumference of a circle 
+//it displays the area, circumference, and number of circle that user has build.
+
 public class CircleApp {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
