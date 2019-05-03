@@ -29,14 +29,14 @@ public class Circle {
 	}
 	
 	public String getFormattedCircumference() {
-		double circ = getCircumference();
-		return formatNumber(circ);	
+		return formatNumber(getCircumference());	
 	}
 	
 	public String getFormattedArea() {
-		double area = getArea();
-		return formatNumber(area);	
+		return formatNumber(getArea());	
 	}
 	
+	
+}
 	
 }
