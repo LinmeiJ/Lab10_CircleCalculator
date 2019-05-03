@@ -23,5 +23,6 @@ public class CircleApp {
 		
 		}
 		System.out.println("You have build " + circNum + " circles in this program.Goodbye!");
+		sc.close();
 	}
 }
