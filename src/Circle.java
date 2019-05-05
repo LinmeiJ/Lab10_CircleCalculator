@@ -11,7 +11,6 @@ public class Circle {
 		return String.format("%.2f", x);	
 	}
 	
-//_______getter and setter to access the instance varible_________
 	public double getRadius() {
 		return radius;
 	}
@@ -19,7 +18,7 @@ public class Circle {
 	public void setRadius(double radius) {
 		this.radius = radius;
 	}
-//_________________________________________________
+	
 	public double getCircumference() {
 		return 2 * Math.PI * radius;
 	}
